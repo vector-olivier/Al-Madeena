@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <title>DKM Data Master</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="DKM data master">
+  <meta name="keywords" content="HTML, CSS, JavaScript">
+  <meta name="author" content="ARCHAREUX GGWP ANJAY MABAR">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css'>
+<link rel='stylesheet' href='https://unpkg.com/swiper/swiper-bundle.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<body>
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="content" data-content="one">
+            <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vTEn0u2WT8qt_BU14_EsCflw1W3gBXH_u2kOrRob-Zbrf4wNqL98gEWUePg5fH5OQ/pubhtml" target="_blank" style="text-decoration: none; color:#f2f2f2;"> <h1>Data Keuangan MQM</h1></a>
+            <p>
+              Rekap keuangan MQM mulai dari pembayaran orang tua siswa, pengeluaran, pemasukan, posisi kas real
+              tersusun secara rapi dengan transparansi dan data yang selalu diperbaharui secara berkala
+              serta double cek untuk memastikan tidak ada kekeliruan.
+            </p>
+          </div>
+          <div class="background" data-item="one"></div> 
+        </div>
+
+        <div class="swiper-slide">
+          <div class="content" data-content="two">
+            <a class="AlertBox" style="text-decoration: none; color:#f2f2f2;"> <h1>Catatan pengeluaran DKM</h1></a>
+            <p>
+              Laporan seluruh pengeluaran dan pemasukan DKM Al-Madeena dicatat secara rinci, lengkap dengan keterangan,
+              transparan dan menyeluruh. dicatat langsung oleh bendahara kami dan di audit oleh kepala divisi DKM Al-Madeena
+              Segala pemasukan dan pengeluaran yang terjadi berarti sudah disetujui oleh ketua DKM dan kepala divisi.
+              
+
+            </p>
+          </div>
+          <div class="background" data-item="two"></div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="content" data-content="three">
+            <a class="AlertBox" style="text-decoration: none; color:#f2f2f2;"> <h1>Kegiatan DKM</h1></a>
+            <p>
+              Berisi seluruh kegiatan DKM baik yang sudah terencana maupun masih dalam peretahap realisasi
+              seluruh kegiatan sudah yang berjalan maupun akan dilaksanakan selalu didokumentasikan
+              baik melalui foto ataupun video yang akan kami posting di</p> <p><a href="https://www.instagram.com/almadeena.islamic.school/ "target="_blank" style="text-decoration: none; color:rgb(211, 230, 49);">sosial media kami</a></p>
+
+            </p>
+          </div>
+          <div class="background" data-item="three"></div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="content" data-content="four">
+            <a href="" style="text-decoration: none; color:#f2f2f2;"> <h1>Jadwal Petugas Jumat</h1></a>
+            <p>
+              Berisi nama nama petugas untuk muadzin dan khatib
+              keduanya telah diverfikasi langsung oleh ketua DKM 
+              baik petugas dari luar ataupun anggota SO
+              
+            </p>
+          </div>
+          <div class="background" data-item="four"></div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="content" data-content="five">
+           <a class="AlertBox" style="text-decoration: none; color:#f2f2f2;"><h1>Struktur DKM</h1></a>
+            <p>
+              Jajaran orang kompeten yang dipilih langsung oleh kepala divisi dan ketua DKM
+              Orang-orang hebat dengan keahliannya masing-masing yang menjadi rangka penopang
+              keberlangsungan dan kesejahteran masjid Al-Madeena. 
+            </p>
+          </div>
+          <div class="background" data-item="five"></div>
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+
+    <div class="footer">
+      <div class="feature">
+        <i class="fa-solid fa-hand-holding-dollar"></i>
+        <div>
+       <a class="AlertBox" style="text-decoration: none; color:#f2f2f2;"><p>Berdonasi</p></a>
+          <small>Untuk Masjid</small>
+        </div>
+      </div>
+      <hr />
+      <div class="feature">
+        <i class="fa-solid fa-phone"></i>
+        <div>
+          <p><a href="https://wa.me/6281573192482" target="_blank" style="text-decoration: none; color:#f2f2f2;"> Hubungi</p></a>
+          <small>Sekertariat DKM</small>
+        </div>
+      </div>
+      <hr />
+      <div class="feature">
+        <i class="fa-solid fa-location-dot"></i>
+        <div>
+          <a href="https://maps.app.goo.gl/yRZSBibRWuSc9iUu8" style="text-decoration: none; color: #f2f2f2;" target="_blank"><p>Lokasi</p></a>
+          <small>Masjid Al-Madeena</small>
+        </div>
+      </div>
+      <hr />
+      <button onclick="window.open('https://wa.me/6281573192482', '_blank');" class="btn">Kontak Developer</button>
+    </div>
+
+    <a href="https://www.youtube.com/@Archareuxx" target="_blank" class="logo"><img src="https://assets.codepen.io/9868786/youtube.webp" alt="Jangan lupa subrek"></a>
+  </body>
+  <!-- js Internal-->
+   <script>
+  document.querySelectorAll(".AlertBox").forEach(function(element) {
+    element.addEventListener("click", function(event) {
+      event.preventDefault(); // (go) Blok default URL
+      let timerInterval;
+      Swal.fire({
+        title: "Tautan ini masih dalam tahap pengembangan",
+        html: "<b></b> Milidetik tersisa sebelum pesan ditutup",
+        timer: 3000, // MS
+        timerProgressBar: true,
+        didOpen: () => {
+          Swal.showLoading();
+          const timer = Swal.getPopup().querySelector("b");
+          timerInterval = setInterval(() => {
+            timer.textContent = (Swal.getTimerLeft() / 1000).toFixed(2); // Milidetik menjadi detik
+          }, 100);
+        },
+        willClose: () => {
+          clearInterval(timerInterval);
+        }
+      }).then((result) => {
+        if (result.dismiss === Swal.DismissReason.timer) {
+          console.log("Pesan ditutup");
+        }
+      });
+    });
+  });
+</script>
+   <!-- css Internal-->
+    <style>
+    </style>
+  <!-- js External-->
+  <script  src="./script.js" defer></script>
+<!-- Imprott library -->
+<link href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert2/11.14.0/sweetalert2.min.js" integrity="sha512-OlF0YFB8FRtvtNaGojDXbPT7LgcsSB3hj0IZKaVjzFix+BReDmTWhntaXBup8qwwoHrTHvwTxhLeoUqrYY9SEw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js" integrity="sha512-AA1Bzp5Q0K1KanKKmvN/4d3IRKVlv9PYgwFPvm32nPO6QS8yH1HO7LbgB1pgiOxPtfeg5zEn2ba64MUcqJx6CA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src='https://unpkg.com/swiper/swiper-bundle.min.js'></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/lib.min.js" integrity="sha512-z/dvZbFZhHCi5/4UoyNwhidEOFbiN93Um+DWoaMZsH6zqifGGo0zA4bUwdf1SgV7KIPMQgiGs+05PNl8ytxweQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/3.5.4/vue.cjs.js" integrity="sha512-7Tj6OYWPTlzOFwzkVzDVHx2ZfVdI0VbHDHXhuwGTPzaSiiLNSMA4IlTCHOeZ2rLrqt1bScYZEBwKyxBGK8hjzA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.7.7/axios.min.js" integrity="sha512-DdX/YwF5e41Ok+AI81HI8f5/5UsoxCVT9GKYZRIzpLxb8Twz4ZwPPX+jQMwMhNQ9b5+zDEefc+dcvQoPWGNZ3g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js" referrerpolicy="no-referrer"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" referrerpolicy="no-referrer" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/moment.min.js" integrity="sha512-hUhvpC5f8cgc04OZb55j0KNGh4eh7dLxd/dPSJ5VyzqDWxsayYbojWyl5Tkcgrmb/RVKCRJI1jNlRbVP4WWC4w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js" integrity="sha512-vc58qvvBdrDR4etbxMdlTt4GBQk1qjvyORR2nrsPsFPyrs+/u5c3+1Ct6upOgdZoIl7eq6k3a1UPDSNAQi/32A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <!--End improt library-->
+</body>
+</html>
